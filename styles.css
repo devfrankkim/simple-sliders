@@ -183,7 +183,7 @@ Slider
 
 .slider-container {
   border: 5px solid var(--clr-primary-5);
-  width: 80vw;
+  width: 50vw;
   margin: 0 auto;
   height: 40vh;
   max-width: 80rem;
@@ -200,7 +200,7 @@ Slider
   color: var(--clr-white);
   display: grid;
   place-items: center;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.3s ease-in-out;
   text-align: center;
 }
 .slide-img {
@@ -264,6 +264,7 @@ Slider
     height: 65vh;
   }
 }
+/* Menually */
 /* .slide:nth-child(1){
   left: 0;
 }
@@ -275,8 +276,9 @@ Slider
 }
 .slide:nth-child(4){
   left: 300%;
-}
-.slide{
-  transform: translateX(-100%);
 } */
-/* negative value moves to left */
+
+.slide{
+  transform: translateX(0%);
+} 
+/* negative value moves to left
